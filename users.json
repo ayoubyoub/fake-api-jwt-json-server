@@ -1,1 +1,12 @@
-{"users":[{"id":1,"email":"bruno@email.com","password":"bruno"},{"id":2,"email":"techie@email.com","password":"techie"},{"id":3,"email":"nilson@email.com","password":"nilson"},{"id":4,"email":"nilson1@email.com","password":"nilson"},{"id":5,"email":"nilson2@email.com","password":"nilson"},{"id":6,"email":"nilson3@email.com","password":"nilson"},{"id":7,"email":"nilson4@email.com","password":"nilson"},{"id":8,"email":"nilson7@email.com","password":"nilson"},{"id":9,"email":"nilson8@email.com","password":"nilson"}]}
+{
+  "users": [
+    { "id": 1, "username": "123456", "password": "123456" },
+    { "id": 2, "username": "123654", "password": "123654" },
+    { "id": 3, "username": "567321", "password": "567321" },
+    { "id": 4, "username": "987456", "password": "987456" },
+    { "id": 5, "username": "345876", "password": "345876" },
+    { "id": 6, "username": "987321", "password": "987321" },
+    { "id": 7, "username": "321789", "password": "321789" },
+    { "id": 8, "username": "567432", "password": "567432" }
+  ]
+}

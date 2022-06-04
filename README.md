@@ -1,6 +1,6 @@
 # JSONServer + JWT Auth
 
-A Fake REST API using json-server with JWT authentication. 
+A Fake REST API using json-server with JWT authentication.
 
 Implemented End-points: login,register
 
@@ -12,6 +12,7 @@ $ npm run start-auth
 ```
 
 Might need to run
+
 ```
 npm audit fix
 ```
@@ -24,23 +25,23 @@ You can login/register by sending a POST request to
 POST http://localhost:8000/auth/login
 POST http://localhost:8000/auth/register
 ```
-with the following data 
+
+with the following data
 
 ```
 {
-  "email": "nilson@email.com",
-  "password":"nilson"
+  "username": "123456",
+  "password":"123456"
 }
 ```
 
-You should receive an access token with the following format 
+You should receive an access token with the following format
 
 ```
 {
    "access_token": "<ACCESS_TOKEN>"
 }
 ```
-
 
 You should send this authorization with any request to the protected endpoints
 
@@ -53,6 +54,5 @@ Check out these tutorials:
 - [Mocking a REST API Back-End for Your Angular App with JSON-Server and Faker.js](https://www.techiediaries.com/angular-mock-backend)
 - [Building a Fake and JWT Protected REST API with json-server](https://www.techiediaries.com/fake-api-jwt-json-server)
 - [Angular 9 Tutorial: Build an Example App with Angular CLI, Angular Router, HttpClient & Angular Material](https://www.shabang.dev/angular-tutorial-build-an-example-app-with-angular-cli-router-httpclient-and-angular-material/)
-
-
-
+# fake-api-jwt-json-server
+# fake-api-jwt-json-server
